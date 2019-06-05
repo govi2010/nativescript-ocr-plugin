@@ -1,0 +1,14 @@
+/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+
+android {
+	
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+     compile 'com.rmtheis:tess-two:9.0.0'
+    // Describe plugin native Android dependencies like
+	// implementation "groupName:pluginName:ver" 
+    // EXAMPLE: implementation "com.facebook.fresco:fresco:0.9.0+"
+}
